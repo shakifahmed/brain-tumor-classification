@@ -1,8 +1,8 @@
-\# Brain Tumor Classification
+# Brain Tumor Classification
 
-This repository contains a complete project on Brain Tumor Classification, achieving an impressive accuracy of 99.77%
+- This repository contains a complete project on Brain Tumor Classification, achieving an impressive accuracy of 99.77%
 
-\#\# Image Directory Setting Example
+## Image Directory Setting Example
 
 ```
 Image Folder/
@@ -14,50 +14,40 @@ Image Folder/
     └── ...
 ```
 
-\#\# Brain Tumor Image Label Encoding
-
-\#\# ---------------------------------------------
-
-Original Label : Glioma Encoded Label: 0
-
-Original Label : Meningioma Encoded Label: 1
-
-Original Label :Normal Encoded Label: 2
-
-Original Label : Pituitary Encoded Label: 3
-
-\#\# Encoded Label Images
-
+## Brain Tumor Image Label Encoding
+## ---------------------------------
+```
+Original Label : Glioma         Encoded Label: 0
+Original Label : Meningioma     Encoded Label: 1
+Original Label : Normal         Encoded Label: 2
+Original Label : Pituitary      Encoded Label: 3
+```
+## Encoded Label Images
 ![Label Encoded Images](Images/dataset_images.png)
 
-\#\# Single Run Training Results
+## Single Run Training Results
 
-\#\#\# Training and Validation Accuracy and Loss Graph
-
+### Training and Validation Accuracy and Loss Graph
 ![ Accuracy and Loss Graph](Images/plot_training_history.png)
 
-\#\#\# Model Performance Score
-
-Accuracy: 0.9977
-
+### Model Performance Score
+```
+Accuracy: 0.997
 Precision: 0.9977
-
 Recall: 0.9977
-
 F1-score: 0.9977
+```
+### Confusion Matrix
+![Confusion Matrix](Images/confusion_matrix.png)
 
-![Confusion Matrix](Images/confusion_matrix.png)\#\#\# Confusion Matrix
-
-\#\#\# Model Prediction Results
-
+### Model Prediction Results
 ![Model Outcomes](Images/model_outcomes.png)
 
-\#\# Cross Validation Results
+## Cross Validation Results
 
-In Cross Validation Process Stratified 5-Fold Cross Validation Technique is Used.
+- In Cross Validation Process Stratified 5-Fold Cross Validation Technique is Used.
 
-\#\#\# Cross Validation Report
-
+### Cross Validation Report
 ```
 Results by Fold:
 
@@ -72,7 +62,7 @@ Results by Fold:
 Overall Classification Report:
 
 | Class      	| precision  | recall | f1-score | support |
-|----------------	|------------|--------|----------|---------|
+|---------------|------------|--------|----------|---------|
 | Glioma     	| 1.00       | 1.00   | 1.00     | 6307    |
 | Meningioma 	| 1.00       | 1.00   | 1.00     | 6391    |
 | Normal     	| 1.00       | 1.00   | 1.00     | 3066    |
@@ -121,6 +111,5 @@ F1-Score
 |Pituitary | 1.00   | 1.00   | 1.00   | 1.00   | 1.00   | 1.00| 0.00|
 ```
 
-\#\#\# Cross Validation Confusion Metrics
-
+### Cross Validation Confusion Metrics
 ![Cross Val Confusion Metrics](Images/cross_val_confusion_metrics.png)
