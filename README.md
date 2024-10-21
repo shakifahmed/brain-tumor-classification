@@ -3,7 +3,6 @@
 - This repository contains a complete project on Brain Tumor Classification, achieving an impressive accuracy of 99.77%
 
 ## Image Directory Setting Example
-
 ```
 Image Folder/
 ├── Class 1/
@@ -15,14 +14,13 @@ Image Folder/
 ```
 
 ## Brain Tumor Image Label Encoding
-## ---------------------------------
 ```
 Original Label : Glioma         Encoded Label: 0
 Original Label : Meningioma     Encoded Label: 1
 Original Label : Normal         Encoded Label: 2
 Original Label : Pituitary      Encoded Label: 3
 ```
-## Encoded Label Images
+## Label Encoded Images
 ![Label Encoded Images](Images/dataset_images.png)
 
 ## Single Run Training Results
