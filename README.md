@@ -30,7 +30,7 @@ Original Label : Pituitary      Encoded Label: 3
 
 ### Model Performance Score
 ```
-Accuracy: 0.997
+Accuracy: 0.9977
 Precision: 0.9977
 Recall: 0.9977
 F1-score: 0.9977
